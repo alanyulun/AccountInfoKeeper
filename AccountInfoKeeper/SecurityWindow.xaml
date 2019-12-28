@@ -1,0 +1,16 @@
+﻿<Window x:Class="AccountInfoKeeper.SecurityWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AccountInfoKeeper"
+        mc:Ignorable="d"
+        Title="SecurityWindow" Height="100" Width="350">
+    <Grid>
+        <Label x:Name="lab_Password" Content="輸入密碼 : " HorizontalAlignment="Left" Margin="9,13,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="txt_Password" HorizontalAlignment="Left" Margin="90,17,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="14"/>
+        <Button x:Name="btn_Confirm" Content="確認" HorizontalAlignment="Left" Margin="221,50,0,0" VerticalAlignment="Top" IsDefault="True" Height="25" FontSize="14" Width="50" Click="btn_Confirm_Click"/>
+        <Button x:Name="btn_Cancel" Content="取消" HorizontalAlignment="Left" Margin="290,50,0,0" VerticalAlignment="Top" FontSize="14" IsCancel="True" Width="50" Height="25" Click="btn_Cancel_Click"/>
+
+    </Grid>
+</Window>
